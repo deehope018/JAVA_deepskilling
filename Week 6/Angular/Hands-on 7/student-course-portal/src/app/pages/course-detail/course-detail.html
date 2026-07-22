@@ -1,0 +1,17 @@
+<div *ngIf="course">
+
+    <h2>{{ course.name }}</h2>
+
+    <p>Course Code: {{ course.code }}</p>
+
+    <p>Credits: {{ course.credits }}</p>
+
+    <p>Status: {{ course.gradeStatus }}</p>
+
+</div>
+
+<div *ngIf="!course">
+
+    <h2>Course not found</h2>
+
+</div>
